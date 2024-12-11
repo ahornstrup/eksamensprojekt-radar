@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d73eb3;
+    --secondary-color: #731c77;
+    --grey-color: #717171;
+}
+
+body {
+    background: url('../img/grunge-background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    background-color: var(--grey-color);
+    padding-right: 20px;
+}
+
+/* NAVBAR */
+
+header .navbar ul {
+    list-style-type: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 18px;
+    display: block;
+    color: var(--primary-color);
+    margin-right: 30px;
+}
+
+header .navbar ul li a:visited {
+   color: var(--primary-color);
+   text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #FFF;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+header .navbar ul li:focus-within > ul ,
+header .nvabar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
