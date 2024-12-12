@@ -111,12 +111,6 @@ header label {
     display: none;
 }
 
-section {
-    padding: 100px 20px;
-    text-align: center;
-    margin-top: 50px;
-}
-
 h1, h2 {
     color: var(--secondary-color);
     margin-bottom: 30px;
@@ -124,149 +118,17 @@ h1, h2 {
     font-size: 3rem;
 }
 
-.koncerter-grid {
-    display: flex;
-    gap: 180px;
-    justify-content: center;
-}
-
-.koncert img {
-    width: 230px;
-    height: auto;
-}
-
-.koncerter-grid p {
-    font-family: "Anton SC", sans-serif;
-    color: var(--primary-color);
-    margin-bottom: -70px;
-}
-
-.news {
-    margin-top: -150px;
-}
-
-.news-grid {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    margin-bottom: -300px;
-
-}
-
-.news-item img {
-    width: 500px;
-    height: auto;
-    border: solid var(--primary-color) 4px;
-}
-
-.news-grid p {
-    font-family: "Anton SC", sans-serif;
-    color: white;
-    font-size: 1.5rem;
-    text-align: left;
-}
-
-.reviews-grid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    align-items: top;
-}
-
-.review p {
-    margin: 0;
-    text-align: center;
-    font-family: "Anton SC", sans-serif;
-    color: var(--primary-color);
-}
-
-.review img {
-    width: 200px;
-    height: auto;
-    margin: -60px;
-
-}
-
-.donate-section {
+.nye-kunstnere {
     margin: 50px auto;
     max-width: 1000px;
     padding: 20px;
     text-align: center;
-    margin-bottom: 150px;
-    margin-top: -100px;
+    margin-bottom: 100px;
+    margin-top: 130px;
 }
 
-.donate-section p {
+.nye-kunstnere p {
     font-family: "Anton SC", sans-serif;
     color: var(--primary-color);
     font-size: 1.2rem;
-}
-
-.donate-section a {
-    text-decoration: none;
-    font-size: 5rem;
-}
-
-.donate-section p:nth-child(1):hover {
-    color: var(--secondary-color);
-}
-
-.kommende-koncerter, .nyheder, .anmeldelser {
-    margin-bottom: -100px;
-}
-
-footer .partners {
-    background: #565656;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 200px;
-    margin-bottom: -50px;
-    margin-top: -100px;
-}
-
-footer .social {
-    background: #000000;
-    padding: 20px;
-}
-
-footer .partners img {
-    width: 200px;
-}
-
-footer .social img {
-    width: 40px;
-    margin: 0 10px;
-}
-
-h3 {
-    letter-spacing: 1px;
-}
-
-.kontakt-tekst {
-    text-align: left;
-    font-family: "Anton Sc", sans-serif;
-    color: white;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: absolute;
-    right: 70px;
-    top: 1800px;
-}
-
-.footer-tekst {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    font-family: "Anton Sc", sans-serif;
-    color: white;
-    position: relative;
-    bottom: 190px;
 }
