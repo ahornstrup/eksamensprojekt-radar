@@ -119,7 +119,7 @@ header label {
     margin-top: 150px;
 }
 
-h1 {
+h1, h2 {
     color: var(--secondary-color);
     margin-bottom: 30px;
     font-family: "Anton SC", sans-serif;
@@ -130,6 +130,52 @@ h1 {
     width: 800px;
     height: auto;
     background: radial-gradient(circle, var(--secondary-color), var(--grey-color), var(--secondary-color));
+}
+
+.donate-section {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.donate-section p {
+    font-family: "Anton SC", sans-serif;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.donation-bar {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Anton SC", sans-serif;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+#donation-bar {
+    width: 100%;
+    margin: 10px 0;
+    height: 20px;
+}
+
+.donate-button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: "Anton SC", sans-serif;
+}
+
+.donate-button:hover {
+    scale: 1.05;
+    transition: 0.3s;
 }
 
 footer .partners {
