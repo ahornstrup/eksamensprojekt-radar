@@ -110,3 +110,79 @@ header label {
     cursor: pointer;
     display: none;
 }
+
+.infographic {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+h1 {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-size: 3rem;
+}
+
+.infographic img {
+    width: 800px;
+    height: auto;
+    background: radial-gradient(circle, var(--secondary-color), var(--grey-color), var(--secondary-color));
+}
+
+footer .partners {
+    background: #565656;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: -50px;
+    margin-top: -100px;
+}
+
+footer .social {
+    background: #000000;
+    padding: 20px;
+}
+
+footer .partners img {
+    width: 200px;
+}
+
+footer .social img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.kontakt-tekst {
+    text-align: left;
+    font-family: "Anton Sc", sans-serif;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 70px;
+    top: 1800px;
+}
+
+.footer-tekst {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-family: "Anton Sc", sans-serif;
+    color: white;
+    position: relative;
+    bottom: 190px;
+}
