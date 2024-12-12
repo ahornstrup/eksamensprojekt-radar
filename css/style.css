@@ -7,9 +7,9 @@
 }
 
 :root {
-    --primary-color: #d73eb3;
+    --primary-color: #d53bb1;
     --secondary-color: #731c77;
-    --grey-color: #717171;
+    --grey-color: #989898;
 }
 
 body {
@@ -43,7 +43,7 @@ header {
     font-weight: 400;
     font-style: normal;
     position: fixed;
-    background-color: var(--grey-color);
+    background: linear-gradient(180deg, #000000, #ffffff00);
     padding-right: 20px;
 }
 
@@ -109,4 +109,57 @@ header label {
     color: #333;
     cursor: pointer;
     display: none;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-size: 3rem;
+}
+
+.koncerter-grid {
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+}
+
+.koncert img {
+    width: 230px;
+    height: auto;
+}
+
+.koncerter-grid p {
+    font-family: "Anton SC", sans-serif;
+    color: var(--primary-color);
+}
+
+.news {
+    margin-top: -150px;
+}
+
+.news-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.news-item img {
+    width: 500px;
+    height: auto;
+    border: solid var(--primary-color) 2px;
+}
+
+.news-grid p {
+    font-family: "Anton SC", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
 }
