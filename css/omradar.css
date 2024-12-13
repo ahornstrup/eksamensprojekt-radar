@@ -110,3 +110,30 @@ header label {
     cursor: pointer;
     display: none;
 }
+
+h1, h2 {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-size: 3rem;
+}
+
+.hvad-er-radar {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 130px;
+}
+
+.hvad-er-radar p {
+    font-family: "Anton SC", sans-serif;
+    color: var(--primary-color);
+}
+
+.radar-image img {
+    width: 100%;
+    overflow-x: hidden;
+    object-fit: cover;
+}
