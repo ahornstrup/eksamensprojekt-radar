@@ -190,10 +190,24 @@ h1, h2 {
     gap: 20px;
 }
 
+form {
+    width: 50%;
+    font-family: "Anton SC", sans-serif;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+
+button {
+    font-family: "Anton SC", sans-serif;
+    font-size: 2rem;
+    width: 50%;
+}
+
 .feedback-form {
     max-width: 75%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .feedback-form input,
@@ -202,7 +216,7 @@ h1, h2 {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .feedback-form button {
@@ -210,7 +224,7 @@ h1, h2 {
     background-color: var(--secondary-color);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
 }
 
