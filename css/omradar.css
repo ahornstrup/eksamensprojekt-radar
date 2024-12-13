@@ -160,3 +160,60 @@ h1, h2 {
 .glader-os {
     font-size: 1.5rem;
 }
+
+.dine-ideer {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.dine-ideer h2 {
+    text-align: center;
+}
+
+.dine-ideer p {
+    font-family: "Anton SC", sans-serif;
+    color: var(--primary-color);
+}
+
+.tekst-om-ide {
+    max-width: 400px;
+    text-align: center;
+}
+
+.ideer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.feedback-form {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: var(--primary-color);
+}
