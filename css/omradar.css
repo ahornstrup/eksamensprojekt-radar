@@ -137,3 +137,26 @@ h1, h2 {
     overflow-x: hidden;
     object-fit: cover;
 }
+
+.frivillig {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.frivillig p:not(.bliv-frivillig) {
+    font-family: "Anton SC", sans-serif;
+    color: var(--primary-color);
+}
+
+.bliv-frivillig {
+    font-family: "Anton SC", sans-serif;
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+.glader-os {
+    font-size: 1.5rem;
+}
