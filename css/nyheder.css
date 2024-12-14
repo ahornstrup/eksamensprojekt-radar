@@ -112,12 +112,6 @@ header label {
     display: none;
 }
 
-section {
-    padding: 100px 20px;
-    text-align: center;
-    margin-top: 50px;
-}
-
 h1, h2 {
     color: var(--secondary-color);
     margin-bottom: 30px;
@@ -125,65 +119,16 @@ h1, h2 {
     font-size: 3rem;
 }
 
-.koncerter-grid {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 100px;
-}
-  
-  .koncert {
-    position: relative;
-    overflow: hidden;
-}
-  
-  .koncert img {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
-}
-  
-  
-  .koncert article {
-    position: absolute;
-    bottom: 110px;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
-}
-
-  .koncert:nth-child(2) article,
-  .koncert:nth-child(3) article {
-    bottom: 120px;
-}
-
-  .koncert:nth-child(2) .koncert-titel ,
-  .koncert:nth-child(3) .koncert-titel {
-    font-size: 1.25rem;
-}
-
-.koncert-titel {
-    font-family: "Anton SC", sans-serif;
-    color: var(--primary-color);
-}
-
-.koncert-dato {
-    font-family: "Anton SC", sans-serif;
-    color: var(--secondary-color);
-}
-
 .news {
-    margin-top: -200px;
+    margin-top: 150px;
+    text-align: center;
 }
 
 .news-grid {
     display: flex;
     gap: 40px;
     justify-content: center;
-    margin-bottom: -300px;
-
+    margin-bottom: 60px;
 }
 
 .news-item img {
@@ -206,104 +151,10 @@ h1, h2 {
     font-size: 1.8rem;
     text-align: center;
     position: absolute;
-    padding: 20px;
+    padding: 10px;
     border-radius: 2px;
 }
 
-.reviews-grid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    align-items: top;
-}
-
-.review p {
-    margin: 0;
-    text-align: center;
-    font-family: "Anton SC", sans-serif;
-    color: var(--primary-color);
-}
-
-.review img {
-    width: 200px;
-    height: auto;
-    margin: -60px;
-
-}
-
-.donate-section {
-    margin: 50px auto;
-    max-width: 1000px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 150px;
-    margin-top: -100px;
-}
-
-.donate-section p {
-    font-family: "Anton SC", sans-serif;
-    color: var(--primary-color);
-    font-size: 1.2rem;
-}
-
-.donate-section a {
-    text-decoration: none;
-    font-size: 5rem;
-}
-
-.donate-section p:nth-child(1):hover {
-    color: var(--secondary-color);
-}
-
-.kommende-koncerter, .nyheder, .anmeldelser {
-    margin-bottom: -100px;
-}
-
-footer .partners {
-    background: #565656;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 200px;
-    margin-bottom: -50px;
-    margin-top: -100px;
-}
-
-footer .social {
-    background: #000000;
-    padding: 20px;
-    position: relative;
-}
-
-footer .partners img {
-    width: 200px;
-}
-
-footer .social img {
-    width: 40px;
-    margin: 0 10px;
-}
-
-h3 {
-    letter-spacing: 1px;
-}
-
-.social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.kontakt-tekst {
-    text-align: left;
-    font-family: "Anton Sc", sans-serif;
-    color: white;
-}
-
-.footer-tekst {
-    text-align: center;
-    font-family: "Anton Sc", sans-serif;
-    color: white;
+.news-item p:hover {
+    background: rgba(0,0,0,0.5);
 }
