@@ -45,6 +45,7 @@ header {
     position: fixed;
     background: linear-gradient(180deg, #000000, #ffffff00);
     padding-right: 20px;
+    z-index: 1000;
 }
 
 /* NAVBAR */
@@ -126,19 +127,46 @@ h1, h2 {
 
 .koncerter-grid {
     display: flex;
-    gap: 180px;
-    justify-content: center;
-}
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+  
+  .koncert {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .koncert img {
+    width: 100%; /* Image fills the container */
+    height: 250px; /* Maintain container height */
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+  
+  
+  .koncert article {
+    position: absolute; /* Allows text to be placed over the image */
+    bottom: 110px; /* Align to the bottom of the container */
+    left: 0; /* Align to the bottom-left corner */
+    width: 100%; /* Ensure the text spans the width of the image */
+    display: flex; /* Use Flexbox to position title and date */
+    justify-content: space-between; /* Push items to left and right edges */
+    align-items: center; /* Vertically center items */
+    padding: 0 40px;
+  }
 
-.koncert img {
-    width: 230px;
-    height: auto;
-}
+  .koncert:nth-child(2) article,
+  .koncert:nth-child(3) article {
+    bottom: 120px;
+  }
 
-.koncerter-grid p {
+.koncert-titel {
     font-family: "Anton SC", sans-serif;
     color: var(--primary-color);
-    margin-bottom: -70px;
+}
+
+.koncert-dato {
+    font-family: "Anton SC", sans-serif;
+    color: var(--secondary-color);
 }
 
 .news {
