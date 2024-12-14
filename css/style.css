@@ -129,35 +129,40 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
-  }
+}
   
   .koncert {
     position: relative;
     overflow: hidden;
-  }
+}
   
   .koncert img {
-    width: 100%; /* Image fills the container */
-    height: 250px; /* Maintain container height */
-    object-fit: cover; /* Ensures the image covers the container */
-  }
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
   
   
   .koncert article {
-    position: absolute; /* Allows text to be placed over the image */
-    bottom: 110px; /* Align to the bottom of the container */
-    left: 0; /* Align to the bottom-left corner */
-    width: 100%; /* Ensure the text spans the width of the image */
-    display: flex; /* Use Flexbox to position title and date */
-    justify-content: space-between; /* Push items to left and right edges */
-    align-items: center; /* Vertically center items */
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 40px;
-  }
+}
 
   .koncert:nth-child(2) article,
   .koncert:nth-child(3) article {
     bottom: 120px;
-  }
+}
+
+  .koncert:nth-child(2) .koncert-titel ,
+  .koncert:nth-child(3) .koncert-titel {
+    font-size: 1.25rem;
+}
 
 .koncert-titel {
     font-family: "Anton SC", sans-serif;
@@ -170,7 +175,7 @@ h1, h2 {
 }
 
 .news {
-    margin-top: -150px;
+    margin-top: -200px;
 }
 
 .news-grid {
