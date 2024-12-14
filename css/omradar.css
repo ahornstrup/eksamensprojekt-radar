@@ -167,6 +167,8 @@ h1, h2 {
     padding: 20px;
     text-align: left;
     font-size: 1.1rem;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .dine-ideer h2 {
@@ -230,4 +232,50 @@ button {
 
 .feedback-form button:hover {
     background-color: var(--primary-color);
+}
+
+footer .partners {
+    background: #565656;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+footer .social {
+    background: #000000;
+    padding: 20px;
+    position: relative;
+}
+
+footer .partners img {
+    width: 200px;
+}
+
+footer .social img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontakt-tekst {
+    text-align: left;
+    font-family: "Anton Sc", sans-serif;
+    color: white;
+}
+
+.footer-tekst {
+    text-align: center;
+    font-family: "Anton Sc", sans-serif;
+    color: white;
 }
