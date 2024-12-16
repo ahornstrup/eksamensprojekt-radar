@@ -157,7 +157,7 @@ h1, h2 {
     font-size: 1.7rem;
 }
 
-#donation-bar {
+#donation-amount {
     width: 100%;
     margin: 10px 0;
     height: 20px;
@@ -175,7 +175,7 @@ h1, h2 {
 }
 
 .donate-button:hover {
-    scale: 1.05;
+    transform: scale(1.05);
     transition: 0.3s;
 }
 

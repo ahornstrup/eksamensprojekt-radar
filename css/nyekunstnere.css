@@ -137,6 +137,10 @@ h1, h2 {
     margin: 40px 0;
 }
 
+iframe {
+    border: none;
+}
+
 .donate-section {
     margin: 50px auto;
     max-width: 1000px;
