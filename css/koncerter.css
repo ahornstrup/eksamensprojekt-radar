@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d53bb1;
+    --secondary-color: #731c77;
+    --grey-color: #989898;
+}
+
+body {
+    background: url('../img/grunge-background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    background: linear-gradient(180deg, #000000, #ffffff00);
+    padding-right: 20px;
+    z-index: 1000;
+}
+
+/* NAVBAR */
+
+header .navbar ul {
+    list-style-type: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 18px;
+    display: block;
+    color: var(--primary-color);
+    margin-right: 30px;
+}
+
+header .navbar ul li a:visited {
+   color: var(--primary-color);
+   text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #FFF;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+header .navbar ul li:focus-within > ul ,
+header .nvabar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+h1, h2 {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-size: 3rem;
+}
+
+.koncerter h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.koncerter-row-1,
+.koncerter-row-2,
+.koncerter-row-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin: 40px 0;
+}
+  
+  .koncert {
+    position: relative;
+    overflow: hidden;
+}
+  
+  .koncert img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+  
+  
+  .koncert article {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.koncert-titel {
+    font-size: 1.25rem;
+}
+
+  .koncert:nth-child(1) article,
+  .koncert:nth-child(4) article {
+    bottom: 10px;
+}
+
+  .koncert:nth-child(1) .koncert-titel,
+  .koncert:nth-child(4) .koncert-titel {
+    font-size: 1.1rem;
+}
+
+.koncert-titel {
+    font-family: "Anton SC", sans-serif;
+    color: var(--primary-color);
+}
+
+.koncert-dato {
+    font-family: "Anton SC", sans-serif;
+    color: var(--secondary-color);
+}
+
+footer .partners {
+    background: #565656;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+footer .social {
+    background: #000000;
+    padding: 20px;
+    position: relative;
+}
+
+footer .partners img {
+    width: 200px;
+}
+
+footer .social img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontakt-tekst {
+    text-align: left;
+    font-family: "Anton Sc", sans-serif;
+    color: white;
+}
+
+.footer-tekst {
+    text-align: center;
+    font-family: "Anton Sc", sans-serif;
+    color: white;
+}
