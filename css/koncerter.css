@@ -277,12 +277,16 @@ h3 {
         background: var(--primary-color);
         display: none;
         color: var(--secondary-color);
-        font-family: "EB Garamond", serif;
+        font-family: "Anton SC", sans-serif;
     }
 
     header .navbar ul li {
         width:100%;
-        background-color: var(--primary-color);
+        background-color: var(--secondary-color);
+    }
+
+    header .navbar ul li a:hover {
+        background: var(--primary-color);
     }
 
     header .navbar ul li ul {
