@@ -455,6 +455,16 @@ h3 {
         gap: 0px;
     }
 
+    .menubillede {
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+
+    .logo {
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
 }
 
 @media(max-width:600px) {
@@ -480,7 +490,7 @@ h3 {
         height: auto;
         width: 350px;
         margin: 20px 0;
-        align-items: center;s
+        align-items: center;
     }
 
     .koncerter-grid {

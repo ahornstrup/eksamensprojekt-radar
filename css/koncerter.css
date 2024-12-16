@@ -372,6 +372,16 @@ h3 {
         gap: 0px;
     }
 
+    .menubillede {
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+
+    .logo {
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
 }
 
 @media(max-width:600px) {
