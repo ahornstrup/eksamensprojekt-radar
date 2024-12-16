@@ -255,3 +255,145 @@ h3 {
     font-family: "Anton Sc", sans-serif;
     color: white;
 }
+
+@media(max-width:1230px) {
+
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+    }
+
+    header label {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--primary-color);
+        display: none;
+        color: var(--secondary-color);
+        font-family: "EB Garamond", serif;
+    }
+
+    header .navbar ul li {
+        width:100%;
+        background-color: var(--primary-color);
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: #eee;
+    }
+
+    header .navbar ul li ul li ul {
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: block;
+    }
+
+    .menubillede {
+        width: 40px;
+        margin-right: 30px;
+    }
+}
+
+@media(max-width:905px) {
+
+    .footer-tekst {
+        display: none;
+    }
+
+    .koncert:nth-child(3) {
+        display: none;
+    }
+    
+}
+
+@media(max-width:830px) {
+
+    .reviews-grid {
+    flex-direction: column;
+    }
+}
+
+@media(max-width:830px) {
+
+    .koncerter-row-1,
+    .koncerter-row-2,
+    .koncerter-row-3 {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .koncert article {
+        flex-direction: column;
+        bottom: 50px;
+    }
+
+    .koncert img {
+        height: 100%;
+        width: auto;
+        margin: 40px 0;
+    }
+
+    .koncert:nth-child(1) article,
+    .koncert:nth-child(4) article {
+      bottom: 50px;
+  }
+  
+    .koncert:nth-child(1) .koncert-titel,
+    .koncert:nth-child(4) .koncert-titel {
+      font-size: 1.1rem;
+  }
+}
+
+@media(max-width:630px) {
+
+    footer .partners {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+}
+
+@media(max-width:600px) {
+
+    footer .social-icons {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        gap: 10px;
+    }
+}
+
+@media(max-width:410px) {
+
+    .koncert img {
+        height: auto;
+        width: 350px;
+        margin: 20px 0;
+    }
+
+    .koncert article {
+        bottom: 35px;
+    }
+
+    .koncert:nth-child(1) article,
+    .koncert:nth-child(4) article {
+      bottom: 30px;
+  }
+}
